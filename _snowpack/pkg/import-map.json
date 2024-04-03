@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "colormap": "./colormap.js",
+    "dat.gui": "./dat.gui.js",
+    "mathjs": "./mathjs.js",
+    "ndarray": "./ndarray.js",
+    "three": "./three.js",
+    "three/examples/jsm/controls/OrbitControls": "./three/examples/jsm/controls/OrbitControls.js",
+    "three/examples/jsm/loaders/STLLoader": "./three/examples/jsm/loaders/STLLoader.js"
+  }
+}

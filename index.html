@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>HEN online</title>
+	<style>
+		body {
+			margin: 0;
+		}
+	</style>
+</head>
+
+<body>
+	<script type="module" src="index.js"></script>
+	<script type="module" src="draggablediv.js"></script>
+	<div id="divPlots">
+		<div id="divPlotsheader">Plots</div>
+		<div id="divRecruitment"></div>
+	</div>
+</body>
+
+<style>
+body, html {
+	margin: 0;
+  	padding: 0;
+}
+#divPlots {
+	min-width: 15em; 
+	min-height: 10em;
+	text-align: center;
+	color: black;
+	position: absolute;
+	background-color: white;
+	top: 2em;
+    left: 2em;
+	display: block;
+	border: 1px;
+}
+#divPlotsheader {
+	height: 1.1em;
+	cursor: move;
+	background-color: lightgray;
+}
+#divRecruitment {
+	top: 1.1em;
+	bottom: 0;
+	resize: both;
+	overflow: auto;
+}
+</style>
+
+</html>
